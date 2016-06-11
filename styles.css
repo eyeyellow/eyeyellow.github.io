@@ -1,3 +1,78 @@
 body {
   background: black;
+  margin: 10px;
+}
+
+main {
+  width: 77%;
+  display: inline-block;
+}
+
+section {
+  background-image: url(persian_poppies.jpeg);
+  padding: 1%;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h2#title {
+  color: #FFFFFF;
+}
+
+#poemtext {
+  color:#D033C5;
+}
+
+#poet {
+  margin:50px 20px 70px 320px;
+}
+
+#moon {
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Courier, sans-serif;
+}
+
+.interesting {
+  color:#48C18D;
+}
+
+.works {
+  color:#61C3D7;
+}
+
+.wikilink {
+  color:#D6A227;
+}
+
+@media screen and (max-width: 650px) {
+  section {
+    font-size: .5em;
+  }
+
+  main {
+    font-size: .5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section {
+    font-size: 1em;
+    display: block;
+    width: 100%;
+  }
+
+  main {
+    font-size: 1em;
+    display: block;
+    width: 100%;
+  }
 }
